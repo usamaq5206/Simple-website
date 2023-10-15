@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.container .text-area  {
+    /* display: inline-block; */
+    margin: auto 0;
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color: #59c3ea;
+    
+}
+.imagem img  {
+    display: inline-block;
+    height: 550px;
+    border: 2px solid white;
+    border-radius: 45px;
+    margin-top: 90px;
+    margin-left: 90px;
+    
+}
+
+.sectionB {
+    display: flex;
+    justify-content: center;
+    background-image: url(assets/footer.jpg);
+    height: 600px;
+    
+}
+.box {
+    text-align: center;
+    margin: auto 25px;
+    color: white;
+    
+}
+.box .box1 {
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+}
+.box .per {
+    font-size: 35px;
+    /* opacity: 70%; */
+    color: #5dd3bd;
+}
+.box .p2 {
+    font-size: 25px;
+    line-height: 40px;
+}
+.box .p3 {
+    font-size: 15px;
+    opacity: 70%;
+}
+.sectionC {
+    text-align: center;
+    margin-top: 150px;
+    height: 400px;
+    
+}
+.sectionD {
+    text-align: center;
+    padding-top: 200px;
+    background-image: url(assets/footer.jpg);
+    height: 800px;
+    
+}
+.image {
+    display: inline-block;
+    height: 250px;
+    width: 450px;
+    
+    margin-left: 20px;
+    color: white;
+    border: 3px dashed white;
+}
+.image p {
+    margin-top: 100px;
+    font-size: 30px;
+}
+.footer {
+    color: white;
+    
+}
+
